@@ -1,0 +1,31 @@
+body{
+    font-family: "Poetsen One", sans-serif;
+    background-color:rgb(32, 33, 36) ;
+}
+
+
+h1,h3,h4,h5,h6 {
+    font-family: "Dancing Script", cursive;
+}
+
+.home .container h1::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 14%;
+    left: 0;
+    bottom: 45px;
+    background-color: #c2209a;
+    transition: height 350ms;
+    z-index: -1;
+}
+
+.home .container h1:hover::before{
+    height: 25%;
+
+}
+.bookmark{
+    border-bottom: white dotted ;
+    border-top:white dotted ;
+}
+
